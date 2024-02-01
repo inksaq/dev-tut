@@ -1,0 +1,35 @@
+[binaries]
+c = '/usr/bin/gcc'
+cpp = '/usr/bin/g++'
+ar = '/usr/bin/gcc-ar'
+strip = '/usr/bin/strip'
+exe_wrapper = '' # not needed for Linux
+
+[host_machine]
+system = 'linux'
+cpu_family = 'x86_64'
+cpu = 'x86_64'
+endian = 'little'
+
+[project options]
+default_library = 'static'
+
+[imgui:project options]
+dx9= 'disabled'
+dx10= 'disabled'
+dx11= 'disabled'
+dx12= 'disabled'
+opengl = 'enabled'
+default_library = 'static'
+
+[fmt:project options]
+default_library = 'static'
+
+[glew:project options]
+default_library = 'static'
+
+[glfw3:project options]
+default_library = 'static'
+
+[glm:project options]
+default_library = 'static'
