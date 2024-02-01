@@ -3,6 +3,7 @@ build
 include/
 lib/
 dist/*
+subprojects/*
 !subprojects/*.wrap
 !subprojects/packagefiles/
-subprojects/*
+
