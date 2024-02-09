@@ -38,7 +38,7 @@ namespace scenes{
 void WorldScene::createAndUseShaders() {
     // Paths to shader files
     std::string vertexShaderPath = "./data/shader/vertex.vert";
-    std::string fragmentShaderPath = "./data/shader/fragment.frag";
+    std::string fragmentShaderPath = "./data/shader/default_fragment.frag";
 
     // Create vertex shader
     core::gl::Shader vertexShader;

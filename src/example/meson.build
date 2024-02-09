@@ -10,10 +10,11 @@ endif
 
 executable(
     'Example',
-    dependencies: dev_dep,
+    dependencies: [dev_dep],
     include_directories : '.',
-    sources: files('./main.cpp'),
+    sources: files('./main2.cpp') + shader_headers,
     cpp_args : cpp_args,
     install : true,
     install_dir: meson.source_root() / 'out'
 )
+
